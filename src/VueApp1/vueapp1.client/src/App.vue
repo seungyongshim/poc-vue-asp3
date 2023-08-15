@@ -10,19 +10,19 @@
       <v-app-bar-title>Application</v-app-bar-title>
     </v-app-bar>
 
-    <v-main >
+    <v-main>
       <!--  -->
     </v-main>
   </v-app>
 </template>
 
-<script setup lang="ts">
+<script setup >
   import { ref } from 'vue'
 
   const drawer = ref(null)
 </script>
 
-<script lang="ts">
+<script>
   export default {
     data: () => ({ drawer: null }),
   }
