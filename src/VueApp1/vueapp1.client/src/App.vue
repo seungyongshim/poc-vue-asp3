@@ -8,6 +8,9 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-app-bar-title>Application</v-app-bar-title>
+      <v-btn variant="text" icon="mdi-magnify"></v-btn>
+      <v-btn variant="text" icon="mdi-filter"></v-btn>
+      <v-btn variant="text" icon="mdi-dots-vertical"></v-btn>
     </v-app-bar>
 
     <v-main>
